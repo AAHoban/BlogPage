@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" 
     rel="stylesheet" >
-    <link rel="stylesheet" href="style.css">
-    <title>Blog Page</title>
+    <link rel="stylesheet" href="editor.css">
+    <title>Document</title>
 </head>
 <body>
-
     <nav class="navbar">
         <img src="" alt="">
         <ul class="link-container">
@@ -20,15 +19,13 @@
         </ul>    
     </nav>
 
-    <header class="header">
-        <div class="container">
-            <h1 class="heading">
-               <span class="Title">The dream of a </span>
-               <span class="Jour">Journalist</span> 
-            </h1>
-            <a href="editor.html" class="btn">Write A Blog</a>
-        </div>
-    </header>
+    <div class="blog">
+        <textarea type="text" class="title" placeholder="Blog title..."></textarea><br>
+        <textarea type="text" class="article" placeholder="Start writing here..."></textarea>
+    </div>
 
+    <div class="blog-options">
+        <input class="publish-btn" type="button" value="Publish">
+    </div>
 </body>
 </html>
