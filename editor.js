@@ -24,7 +24,7 @@ function articleTyping() {
 
 function title() {
     var text = gretting.value();
-    var par = createP(text);
+    var par = createP('<span style="font-size: 48px">' + text + '</span>');
 }
 
 function article() {
