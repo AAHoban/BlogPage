@@ -45,3 +45,23 @@ body {
 .link:hover {
   text-decoration: underline;
 }
+
+.heading {
+  color: rgb(32, 31, 31);
+  text-transform: capitalize;
+  font-size: 25px;
+  line-height: 15px;
+  margin-top: 100px;
+}
+
+.heading1 {
+  margin: 35px 0 0 35px;
+}
+
+hr {
+}
+
+#date {
+  padding: 10px;
+  margin-left: 15px;
+}
